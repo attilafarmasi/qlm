@@ -78,7 +78,7 @@ public class Main {
             }
         } while (dayIndex > numberOfDays || dayIndex < 0);
         System.out.println("Reklámok megjelenése az utolsó " + dayIndex + " napban:");
-        //a.lastAppearances(dayIndex, numberOfDays);
+        a.lastAppearances(dayIndex, numberOfDays);
     }
 }
 

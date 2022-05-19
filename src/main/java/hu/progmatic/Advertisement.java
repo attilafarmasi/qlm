@@ -40,20 +40,6 @@ public class Advertisement {
         return osszesMegjelenes;
     }
 
-    public void setOsszesMegjelenes(int osszesMegjelenes) {
-        this.osszesMegjelenes = osszesMegjelenes;
-    }
-
-    /*
-        // Utolsó n napon a megjelenések száma.
-        public int lastAppearence(int dayIndex, int numberOfDays){
-            int sum = 0;
-            for(int i = dayIndex; i < dayIndex + numberOfDays; i++){
-                sum += ;
-            }
-            return sum;
-        };
-    */
     // Reklám megjelenítése az adott napra.
     public void showAdvertisement(){
         System.out.println("Reklám neve: " + this.name + "\n"
